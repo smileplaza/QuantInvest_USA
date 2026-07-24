@@ -604,7 +604,7 @@ pyinstaller --clean --onefile --windowed src/main.py
 
 - **문서**: [README.md](README.md), [CLAUDE.md](CLAUDE.md), [ARCHITECTURE.md](ARCHITECTURE.md)
 - **이슈**: https://github.com/smileplaza/QuantInvest_USA/issues
-- **이메일**: sahong@gmarket.com
+- **이메일**: sahong@kakao.com
 
 ---
 

@@ -316,7 +316,7 @@ MIT License — 자유롭게 사용, 수정, 배포 가능합니다.
 ## 📞 문의 및 지원
 
 - **이슈 신고**: [GitHub Issues](https://github.com/smileplaza/QuantInvest_USA/issues)
-- **이메일**: sahong@gmarket.com
+- **이메일**: sahong@kakao.com
 - **문서**: 이 저장소의 [설명서](ARCHITECTURE.md) 및 [개발 가이드](CLAUDE.md) 참조
 
 ## 🙏 감사의 말
