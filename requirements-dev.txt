@@ -1,0 +1,19 @@
+# QuantInvest Tool - Development & build dependencies
+# Install with:  pip install -r requirements.txt -r requirements-dev.txt
+#           or:  pip install -e ".[dev,build]"
+
+-r requirements.txt
+
+# Testing
+pytest>=8.0,<10         # installed 9.1.1
+pytest-cov>=6.0,<8      # latest 7.1.0
+
+# Formatting & Linting
+black>=25.0,<27         # latest 26.5.1
+flake8>=7.3,<8          # latest 7.3.0
+isort>=6.0,<9           # latest 8.0.1
+
+# Packaging & Distribution
+pyinstaller>=6.16,<7    # 6.21.0 supports Python 3.14 (requires-python <3.16,>=3.8)
+setuptools>=68
+wheel
