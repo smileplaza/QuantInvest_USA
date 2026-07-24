@@ -1,0 +1,26 @@
+# QuantInvest Tool - Runtime dependencies
+# Verified against Python 3.12–3.14 (cp314 wheels available for all compiled packages).
+# Version policy: floor = current tested-stable release, cap = next major (safe upgrades).
+
+# Core Data & Computation
+numpy>=2.3,<3           # 2.x stable; earliest cp314 wheel = 2.3.2
+pandas>=3.0,<4          # 3.0.x; strategy/backtest layer verified against 3.0.3
+scipy>=1.16,<2          # earliest cp314 wheel = 1.16.1
+
+# Financial Data
+yfinance>=1.5.2,<2      # download() keeps multi_level_index/auto_adjust/progress -> code compatible
+
+# Technical Indicators
+ta>=0.11,<1             # pure-Python; latest 0.11.0
+
+# Statistical Analysis
+statsmodels>=0.14.5,<0.15   # earliest cp314 wheel = 0.14.5
+
+# Visualization
+matplotlib>=3.10.5,<4   # earliest cp314 wheel = 3.10.5
+
+# GUI Framework
+PySide6>=6.11,<7        # Qt 공식 바인딩(LGPL v3). requires-python <3.15,>=3.10; cp310-abi3 wheel -> Python 3.14 설치 가능
+
+# Database
+# SQLite is built-in with Python
