@@ -39,6 +39,14 @@ MANIFEST
 #   before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+# 단, 손수 관리하는 빌드 스펙은 추적한다.
+!QuantInvest.spec
+
+# QuantInvest: 배포 산출물 및 런타임 생성물
+QuantInvest_Tool_v*/
+QuantInvest_Tool_v*.zip
+quantinvest_cache.db
+quantinvest.log
 
 # Installer logs
 pip-log.txt
